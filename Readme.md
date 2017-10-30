@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
 * Студент: [Rinaz Miftakhov](https://up.htmlacademy.ru/htmlcss/19/user/349413).
-* Наставник: `Неизвестно`.
+* Наставник:  [Сергей Фоменко](https://htmlacademy.ru/profile/s-fomenko).
 
 ---
 
