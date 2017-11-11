@@ -91,7 +91,22 @@
         <h2 class="search-span">Заинтересовались?</h2>
         <p>Укажите предпологаемы даты поездки, и мы покажыем вам лучшие предложения гостиниц в Седоне</p>
         <img src="img/map.jpg" height="473" width="1200" alt="Карта">
-        <!--Здесь будет форма-->
+            <form class="form-search" action="" method="">
+              <h2>Поиск гостиницы в Седоне</h2>
+              <label for="datein">Дата заезда:</label>
+              <input type="date" name="datein" id="datein">
+              <label for="dateout"></label>
+              <input type="date" name="dateout" id="dateout">
+              <label for="adult"></label>
+              <input type="button" name="adult-plus" id="adult-plus">
+              <input type="number" name="adult" id="adult">
+              <input type="button" name="adult-minus" id="adult-minus">
+              <label for="children"></label>
+              <input type="button" name="children-plus" id="children-plus">
+              <input type="number" name="choldren" id="children">
+              <input type="button" name="children-minus" id="children-minus">
+              <input type="submit" name="search" id="form-search" value="Найти">
+          </form>
       </section>
     </main>
 

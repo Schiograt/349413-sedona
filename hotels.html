@@ -18,6 +18,21 @@
         <li><a href="hotels.html">Гостиницы</a></li>
         </ul>
       </nav>
+
+      <form class="form-hotels" action="" method="">
+        <h2>Инфраструктура:</h2>
+        <label><input type="checkbox" name="pool" id="form-pool">Бассейн</label>
+        <label><input type="checkbox" name="park" id="form-park">Парковка</label>
+        <label><input type="checkbox" name="Wi-Fi" id="form-WiFi">Wi-Fi</label>
+        <h2>Тип жилья:</h2>
+        <label> <input type="checkbox" name="hotel" id="form-hotel">Гостиница</label>
+        <label> <input type="checkbox" name="motel" id="form-motel">Мотель</label>
+        <label> <input type="checkbox" name="apartments" id="form-apartments">Апартаменты</label>
+        <label for="form-price">Стоимость в сутки(р):</label>
+        <input type="range" name="price" id="form-price" min="0" max="4000" steps="1000">
+        <input type="submit" name="show" id="form-show" value="Показать">
+      </form>
+
     </header>
 
 
