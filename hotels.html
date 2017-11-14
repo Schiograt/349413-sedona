@@ -20,17 +20,25 @@
       </nav>
 
       <form class="form-hotels" action="" method="">
-        <h2>Инфраструктура:</h2>
-        <label><input type="checkbox" name="pool" id="form-pool">Бассейн</label>
-        <label><input type="checkbox" name="park" id="form-park">Парковка</label>
-        <label><input type="checkbox" name="Wi-Fi" id="form-WiFi">Wi-Fi</label>
-        <h2>Тип жилья:</h2>
-        <label> <input type="checkbox" name="hotel" id="form-hotel">Гостиница</label>
-        <label> <input type="checkbox" name="motel" id="form-motel">Мотель</label>
-        <label> <input type="checkbox" name="apartments" id="form-apartments">Апартаменты</label>
-        <label for="form-price">Стоимость в сутки(р):</label>
-        <input type="range" name="price" id="form-price" min="0" max="4000" steps="1000">
-        <input type="submit" name="show" id="form-show" value="Показать">
+        <fieldset class="infrastructure">
+          <legend>Инфраструктура:</legend>
+          <p><label for="form-pool">Бассейн</label><input type="checkbox" name="pool" id="form-pool"></p>
+          <p><label for="form-park">Парковка</label><input type="checkbox" name="park" id="form-park"></p>
+          <p><label for="form-WiFi">Wi-Fi</label><input type="checkbox" name="Wi-Fi" id="form-WiFi"></p>
+        </fieldset>
+
+        <fieldset class="lodging">
+          <legend>Тип жилья:</legend>
+          <p><label for="form-hotel">Гостиница</label><input type="checkbox" name="hotel" id="form-hotel"></p>
+          <p><label for="form-motel">Мотель</label><input type="checkbox" name="motel" id="form-motel"></p>
+          <p><label for="form-apartments">Апартаменты</label><input type="checkbox" name="apartments" id="form-apartments"></p>
+        </fieldset>
+
+        <fieldset class="lodging-price">
+          <legend>Стоимость в сутки(р):</legend>
+          <input type="range" name="price" id="form-price" min="0" max="4000" steps="1000">
+          <input type="submit" name="show" id="form-show" value="Показать">
+        </fieldset>
       </form>
 
     </header>
@@ -44,8 +52,8 @@
                 <li> <a class="sorting-button" href="#">По цене</a></li>
                 <li> <a class="sorting-button" href="#">По цене</a></li>
                 <li> <a class="sorting-button" href="#">По рейтингу</a></li>
-                <li> <a class="sorting-button" href="#"><img src="img/icon-up-dir.svg" alt="Стрелка вверх"></a></li>
-                <li> <a class="sorting-button" href="#"><img src="img/icon-down-dir.svg" alt="Стрелка вниз"></a></li>
+                <li> <a class="sorting-button" href="#">Стрелка вверх</a></li>
+                <li> <a class="sorting-button" href="#">Стреклка вниз</a></li>
             </ul>
         </div>
 
@@ -56,10 +64,10 @@
           <p>От 4000 р.</p>  
           <a class="button-1" href="#">Подробнее</a>
           <a class="button-2" href="#">Забронировать</a>
-          <span class="star"><img src="img/star.svg" alt=""></span>
-          <span class="star"><img src="img/star.svg" alt=""></span>
-          <span class="star"><img src="img/star.svg" alt=""></span>
-          <span class="star"><img src="img/star.svg" alt=""></span>          
+          <span class="star"><img src="img/star.svg" alt="Звезда"></span>
+          <span class="star"><img src="img/star.svg" alt="Звезда"></span>
+          <span class="star"><img src="img/star.svg" alt="Звезда"></span>
+          <span class="star"><img src="img/star.svg" alt="Звезда"></span>          
           <span class="rating">Рейтинг: 8,5</span>
         </section>
 
@@ -70,9 +78,9 @@
           <p>От 3000 р.</p>
           <a class="button-1" href="#">Подробнее</a>
           <a class="button-2" href="#">Забронировать</a>
-          <span class="star"><img src="img/star.svg" alt=""></span>
-          <span class="star"><img src="img/star.svg" alt=""></span>
-          <span class="star"><img src="img/star.svg" alt=""></span>          
+          <span class="star"><img src="img/star.svg" alt="Звезда"></span>
+          <span class="star"><img src="img/star.svg" alt="Звезда"></span>
+          <span class="star"><img src="img/star.svg" alt="Звезда"></span>          
           <span class="rating">Рейтинг: 8,9</span>
         </section>
 
@@ -83,8 +91,8 @@
           <p>От 2000 р.</p>
           <a class="button-1" href="#">Подробнее</a>
           <a class="button-2" href="#">Забронировать</a>
-          <span class="star"><img src="img/star.svg" alt=""></span>
-          <span class="star"><img src="img/star.svg" alt=""></span>          
+          <span class="star"><img src="img/star.svg" alt="Звезда"></span>
+          <span class="star"><img src="img/star.svg" alt="Звезда"></span>          
           <span class="rating">Рейтинг: 9,2</span>
         </section>  
                  
