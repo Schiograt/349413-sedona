@@ -8,7 +8,6 @@ body {
     font-weight: 700;
     color: #333333;
     text-transform: uppercase;
-
     background-color: #f2f2f2;
 }
 
@@ -198,4 +197,88 @@ a {
     font-size: 14px;
     line-height: 26px;
     color: #000000;
+}
+
+
+/* Стили для страницы с гостиницами */
+
+.hotels-city {
+    color: #766357;
+}
+
+.form-hotels {
+    background-color: #ffffff;
+    background: url("../img/bg.jpg") no-repeat;
+}
+
+.form-hotels legend {
+    font-size: 16px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.form-hotels p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.sorting {
+    background-color: #fefefe;
+    min-height: 86px;
+    width: 1200px;
+    border-bottom: 1px #e5e5e5 solid;
+}
+
+.sorting-span {
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.sorting span {
+    font-size: 12px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.sorting-buttons {
+    list-style: none;
+    font-size: 12px;
+    line-height: 18px;
+}
+.sorting-buttons li a{
+    border-bottom: 3px #81b3d2 dashed;
+    color:#b1b1b1;
+}
+
+ul .sorting-buttons: :first-child {
+    font-size: 12px;
+    line-height: 18px;
+    color: #92bdd8;
+}
+
+.all-hotels {
+    background-color: #fefefe;
+}
+.all-hotels h3 {
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+}
+.all-hotels p {
+    font-size: 14px;
+    line-height: 21px;
+}
+.all-hotels a {
+    font-size: 14px;
+    line-height: 21px;
+    color:  #ffffff;
+}
+
+.all-hotels .button-1 {
+    background-color: #81b3d2;
+}
+.all-hotels .button-2 {
+    background-color: #766357;
 }
