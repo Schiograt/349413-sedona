@@ -16,6 +16,10 @@ a {
     text-decoration: none;
 }
 
+.visually-hidden {
+    visibility: hidden;
+}
+
 
 
 .main-navigation {
@@ -33,10 +37,165 @@ a {
 }
 
 .site-navigation a {
-    color: #333333;
+    font-weight: bold;
+    color: #000000;
 }
 
 .background-image {
+    min-height: 564px;
+    min-width: 1200px;
     background-color: #ffffff;
-    background-image: url("../img/bg.jpg")
+    background: url("../img/bg.jpg") no-repeat;
+}
+
+.sedona-city {
+    text-align: center;
+}
+.sedona-city h3 {
+    font-size: 21px;
+    line-height: 26px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.Number {
+    font-size: 21px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.advantages-1 {
+    text-align: center;
+}
+.advantages-1 h3 {
+    font-size: 21px;
+    color: #ffffff;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.advantages-1 p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.advantages-list {
+    text-align: center;
+}
+
+.recommend {
+    background-color: #ffffff;
+    min-height: 330px;
+}
+.advantages-item h3 {
+    font-size: 21px;
+    color: #000000;
+    line-height: 21px;
+    font-weight: bold;
+}
+.advantages-item p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.advantages-2 {
+    text-align: center;
+}
+.advantages-2 h3 {
+    font-size: 21px;
+    color: #ffffff;
+    line-height: 21px;
+    font-weight: bold;
+}
+
+.advantages-2 p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #ffffff;
+}
+
+.section-345 {
+    text-align: center;
+    background-color: #eeeeee;
+    min-height: 256px;
+}
+.section-345-item h3 {
+    font-size: 21px;
+    color: #000000;
+    line-height: 21px;
+    font-weight: bold;
+}
+.section-345-item p {
+    font-size: 14px;
+    line-height: 21px;
+    color: #333333;
+}
+
+.section-345-item .Number {
+    color: #333333;
+}
+
+.Search {
+    background-color: #ffffff;
+    min-height: 291px;
+}
+
+.Search h2 {
+    font-size: 30px;
+    line-height: 36px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.Search p {
+    font-size: 14px;
+    line-height: 24px;
+    color: #333333;
+}
+
+.form-search h2 {
+    background-color: #766357;
+    font-size: 21px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.form-search input {
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.form-search label {
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.form-search input[type="submit"] {
+    background-color: #81b3d2;
+    font-size: 21px;
+    line-height: 26px;
+    color: #ffffff;
+}
+
+.mine-footer {
+    background-color: #fdfdfd;
+}
+
+.footer-hashtag {
+    font-size: 21px;
+    line-height: 26px;
+    color: #000000;
+    font-weight: bold;
+}
+
+.mine-footer.copyright {
+    font-size: 14px;
+    line-height: 26px;
+    color: #000000;
 }
